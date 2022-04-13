@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #02090F;
+    /* overflow: hidden; */
+}
+.navigator{
+    width: 100%;
+    background-color: #02090F;
+    display: flex;
+    justify-content: space-around;
+}
+.navigator .btn-nav{
+    height: 40px;
+    font-weight: bolder;
+    position: relative;
+    top: 40px;
+    width: 120px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background: #33A4FE;
+    box-shadow: 5px 4px 10px 0px rgb(96, 96, 96);
+    cursor: pointer;
+}
+.navigator .btn-nav:hover{
+    background: #4dafff;
+}
+.navigator img{
+    position: relative;
+    top: 20px;
+    width: 100px;
+}
+.navigator .bigtext{
+    color: #fff;
+    position: relative;
+    top: 16px;
+    font-size: 40px;
+}
+.navigator .ul-items{
+    display: flex;
+    padding: 60px 10px;
+}
+.navigator ul li{
+    color: #fff;
+    margin: 0px 17px;
+    cursor: pointer;
+    list-style: none;
+}
+.navigator ul li:hover{
+    color: lightgray;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+}
+.container .small-span{
+    color: lightgray;
+    position: absolute;
+    left: 50px;
+    font-size: 12px;
+}
+.container .content-title{
+    width: 500px;
+    position: relative;
+    left: 46px;
+    top: 10px;
+}
+.container .content-title p{
+    color: #fff;
+}
+.container .content-title .L{
+    color: #33A4FE;
+    position: relative;
+    left: 0;
+}
+.container .content-title .buttons-content button{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 20px 14px;
+    font-weight: bold;
+    background-color: #33A4FE;
+    cursor: pointer;
+}
+.container .content-title .buttons-content button:hover{
+    background-color: #67bbff;
+}
+/* .container .con */
+.container .content-title .content-bigtext{
+    font-size: 70px;
+    color: #fff;
+}
+.container .content-image img{
+    width: 600px;
+    /* height: 50px; */
+    position: relative;
+    margin-right: 200px;
+    /* top: 0px; */
+}
